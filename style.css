@@ -140,6 +140,7 @@
     margin: 0 auto;
     gap: 96px;
     align-items: center;
+    padding-bottom: 80px;
 
 }
 .froducts-content h3 , p , button{
@@ -152,6 +153,28 @@
 }
 .froducts-content p{
     color: gray;
+}
+/* footer related style */
+footer{
+    background-color: rgb(8, 8, 8);
+    color: #fff;
+}
+.footer-container{
+    max-width: 350px;
+    margin: 50px auto;
+    padding: 50px 0;
+    text-align: center;
+}
+.links{
+    max-width: 120px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.icons{
+    list-style: none;
+}
+.link{
+    color: #fff;
 }
 
 /* resonsive for mobile divaice */
