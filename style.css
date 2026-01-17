@@ -125,11 +125,33 @@
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
     max-width: 330px;
 }
-.card-bottom a ,i{
+.card-bottom{
     color: #E02C6D;
+    margin-top: 50px;
+}
+.card-bottom a{
     text-decoration: none;
     font-weight: bold;
-    margin-top: 50px;
+    color: #E02C6D;
+}
+/* products related style */
+.froducts{
+    max-width: 1110px;
+    margin: 0 auto;
+    gap: 96px;
+    align-items: center;
+
+}
+.froducts-content h3 , p , button{
+    margin-bottom: 16px;
+}
+.froducts-content h3 {
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: #0A0826;
+}
+.froducts-content p{
+    color: gray;
 }
 
 /* resonsive for mobile divaice */
@@ -175,5 +197,10 @@
 .card{
     margin: 0 auto;
 }
+.froducts{
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
 
 }
